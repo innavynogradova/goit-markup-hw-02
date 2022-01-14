@@ -1,0 +1,229 @@
+/* заголовки #212121 */
+/* параграфы #757575 */
+/* акцент #2196F3 */
+/* цвет лого в Header #2196F3 и #000000 */
+/* цвет лого в Footer #2196F3 и #FFFFFF */
+/* цвет заголовка Hero #FFFFFF */
+/* цвет address в Footer #FFFFFF */
+/* цвет email и tel в Footer rgba(255, 255, 255, 0.6);*/
+
+/* основной цвет Кнопки Заказать услугу #2196F3 */
+/* цвет текста кнопки Заказать услугу #FFFFFF */
+/* цвет текста белой кнопки Портфолио #212121 */
+
+/* background в Header: #FFFFFF; */
+/* background в main : #E5E5E5 */
+/* background НАША КОМАНДА : #F5F4FA */
+/* background TEAM ITEM: #E5E5E5 */
+/* background HERO: #2F303A; */
+/* background Footer: #2F303A; */
+
+:root {
+  --first-background-color: #f5f4fa;
+  --second-background-color: #2f303a;
+  --nav-text-color: #212121;
+  --header-contact-color: #757575;
+  --accent-color: #2196f3;
+  --first-btn-color: #ffffff;
+  --second-btn-color: #212121;
+  --section-title: #212121;
+  --item-title-color: #212121;
+  --item-text-color: #757575;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* ----------HEADER------------ */
+
+.header {
+  background-color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.header-studio-color {
+  color: #000000;
+}
+
+.nav-link {
+  color: var(--nav-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.header-contact {
+  color: var(--header-contact-color);
+}
+
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--accent-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+/* -----------MAIN------------- */
+
+.hero {
+  background-color: #2f303a;
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--first-btn-color);
+  background-color: var(--accent-color);
+}
+
+.hero-btn:focus {
+  color: var(--first-btn-color);
+}
+
+.benefit-item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--item-title-color);
+}
+
+.benefit-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--item-text-color);
+}
+.section {
+}
+
+.work-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--section-title);
+}
+
+.team {
+  background-color: var(--first-background-color);
+}
+
+.team-item-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
+  color: var(--item-title-color);
+}
+
+.team-item-profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
+  color: var(--item-text-color);
+}
+
+/* ----------FOOTER------------ */
+
+.footer {
+  background: var(--second-background-color);
+}
+
+.footer-studio-color {
+  color: #ffffff;
+}
+
+.footer-contacts {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+}
+
+.footer-address-link {
+  color: #ffffff;
+}
+
+.footer-email-tel-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ---------PORTFOLIO---------- */
+
+/* 
+h1
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+
+p
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+
+*/
