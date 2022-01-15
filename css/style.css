@@ -110,6 +110,11 @@ a {
   background-color: var(--accent-color);
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+
 .section {
   letter-spacing: 0.03em;
 }
